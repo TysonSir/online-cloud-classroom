@@ -1,0 +1,192 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height: 100%;
+}
+
+.content{
+    margin-top: 100px;
+    background: #eee;
+    overflow: hidden;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contentImg{
+	padding-top: 15px;
+	width: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+    overflow: hidden;  
+	
+}
+
+.contentImg .stuimg{
+    width: 360px;
+    height: 200px;
+    float: left;
+    margin-right: 60px;
+    margin-bottom: 35px;
+    position: relative;
+   
+}
+.contentImg .stuimg .tip{
+    width: 100%;
+    height: 0px;
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    line-height: 50px;
+    text-align: center;   
+    transition:all 1s;
+}
+.contentImg .stuimg:hover .tip{
+    
+    height: 50px;
+}
+
+.contentImg .right{
+    margin-right: 0px;
+    
+}
+.contentImg .stuimg img{
+    width: 100%;
+    height: 100%;
+}
+.btn1{    
+    width: 80%;
+    margin-left: 10%;    
+    overflow: hidden;   
+    padding-right: 30px;
+    margin-top: -10px;
+}
+.btn1 input{
+    float: right;
+    display: block;
+    width: 80px;
+    height: 30px;
+ 
+}
+
+/*电影评论区开始*/
+.contentVid{
+    width: 100%;
+    /*height: 500px;   */
+    background-size: 100% 100%;
+
+}
+.movie{
+    width: 80%;       
+    margin-left: auto;
+    margin-right: auto;   
+    /*background: url(../images/b2.jpg)no-repeat fixed;*/
+    overflow: hidden;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.movie .img{
+    width: 450px;
+    height: 300px;
+    float: left;
+}
+.movie .img img{
+    width: 100%;
+    height: 100%;
+}
+.movie  .intro{
+    width: 600px;
+    height: 300px;    
+    float: right;
+   
+}
+.movie .intro1{
+    height: 250px;
+    border-bottom: 1px dashed #ccc;
+    overflow: auto;
+
+}
+.movie  .intro1 span{
+    color: blue;
+}
+.movie .intro2{
+    padding-top: 5px;
+}
+.movie .intro2 img{
+
+    cursor: pointer;
+}
+.movie .intro2 span{
+   
+    width: 105px;
+    display: inline-block;
+    color: #ccc;
+}
+
+.pingfen{
+    margin-top: 4px;
+}
+.pingfen span{
+    background: url(../images/star1.png);
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+   
+}
+.juqing p{
+    text-indent: 2em !important;
+    color: #000 !important;
+}
+/*评论区开始*/
+.pinglun{
+    width: 80%;   
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+   border: 1px double #ccc;
+   /*display: none;*/
+}
+.PLcontent{
+    width: 100%;
+    height:300px; 
+    resize:none;
+    padding: 10px;
+    line-height: 25px;
+    color: #0cc;
+}
+.pinglun .t{
+
+    width: 90%;    
+    padding: 5px;
+    height: 40px;
+    margin-top: 5px;    
+    padding: 6px 12px; 
+    font-size: 14px; 
+    line-height: 1.428571429; 
+    color: #555555; 
+    vertical-align: middle; 
+    background-color: #ffffff; 
+    border: 1px solid #cccccc; 
+    border-radius: 4px; 
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); 
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); 
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; 
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; 
+
+}
+.pinglun .PLbtn{
+    width: 9%;
+    display: inline-block;
+    margin-top: 5px;
+    height: 40px;
+
+
+}
+.last{
+    margin-bottom: 20px;
+}
